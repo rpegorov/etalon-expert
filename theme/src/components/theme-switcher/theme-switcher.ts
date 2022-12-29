@@ -86,10 +86,10 @@ export class ThemeSwitcher extends LitElement {
 
     const _heroImage = document.querySelector('#home-hero-image') as HTMLImageElement;
 		if (theme === 'default') {
-			_heroImage.src = '/assets/images/home/light.jpeg';
+			_heroImage.src = './assets/images/home/light.jpeg';
 		}
 		if (theme === 'dark') {
-			_heroImage.src = '/assets/images/home/dark.jpeg';
+			_heroImage.src = './assets/images/home/dark.jpeg';
 		}
 		localStorage.setItem('theme', theme);
 		this.theme = theme;
