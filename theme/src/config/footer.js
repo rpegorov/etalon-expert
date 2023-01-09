@@ -1,16 +1,16 @@
 export const footerSocials = [
   {
-    name: 'Twitter',
-    url: 'https://twitter.com/littlesticksdev',
-    icon: "mdi:twitter",
+    name: 'VKontakte',
+    url: 'https://vk.com/etaloneo',
+    icon: "mdi:vkontakte",
   },
   {
-    name: 'Youtube',
-    url: 'https://youtube.com/c/LittleSticks',
-    icon: "mdi:youtube",
+    name: 'WatsApp',
+    url: 'https://wa.me/79121926760?text=Добрый день!',
+    icon: "mdi:whatsapp",
   },
   {
-    name: 'Github',
+    name: 'Viber',
     url: 'https://github.com/littlesticks',
     icon: "mdi:github",
   },
@@ -33,10 +33,6 @@ export const footerLists = [
 				title: 'Landing Page 2',
 				slug: '/landing-pages/landing-2',
 			},
-      // {
-			// 	title: 'Landing Page 3',
-			// 	slug: '/landing-pages/landing-3',
-			// },
 		],
 	},
 	{
