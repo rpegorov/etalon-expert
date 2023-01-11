@@ -1,7 +1,6 @@
 ---
 import { Icon } from 'astro-icon';
 import Container  from '../core/Container.astro';
-import LittleSticksPlug from './LittleSticksPlug.astro';
 
 const { footerSocials, footerLists, copyrightName, background, color, showLittleSticksPlug = true } =
   Astro.props;
@@ -50,7 +49,6 @@ const { footerSocials, footerLists, copyrightName, background, color, showLittle
       }
     </div>
     <div class="footer-copyright__container">
-      {showLittleSticksPlug && <LittleSticksPlug/>}
       <p>Copyright &copy; {new Date().getFullYear()} {copyrightName}</p>
     </div>
 
@@ -61,16 +59,16 @@ const { footerSocials, footerLists, copyrightName, background, color, showLittle
   footer {
     --footer-bg: var(--theme-primary);
     --footer-color: var(--theme-on-primary);
-    min-height: 40vh;
+    min-height: 20vh;
     background-color: var(--footer-bg);
     color: var(--footer-color);
     border-top-left-radius: var(--theme-shape-radius);
     border-top-right-radius: var(--theme-shape-radius);
   }
   .footer-grid__container {
-    padding: 10vh 0 1rem 0;
+    padding: 5vh 0 1rem 0;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   .footer-socials__list {
     margin: 1rem 0;
@@ -108,7 +106,7 @@ const { footerSocials, footerLists, copyrightName, background, color, showLittle
       grid-column: 1/-1;
     }
     .footer-grid__container {
-      padding: 5vh 0;
+      padding: 2vh 0;
       grid-template-columns: repeat(2, 1fr);
       gap: 1rem;
     }
