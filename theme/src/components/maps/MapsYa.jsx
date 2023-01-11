@@ -1,6 +1,7 @@
 import React from 'react';
 import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';
 
+// Сделать потом интерактивную карту
 export default function App() {
   const defaultState = {
     center: [61.672917, 50.836793],
