@@ -7,7 +7,7 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://rpegorov.github.io',
+  // site: 'https://rpegorov.github.io',
   // Your public domain, e.g.: https://my-site.dev/. Used to generate sitemaps and canonical URLs.
   // base: '/etalon-expert',
   sitemap: true,
