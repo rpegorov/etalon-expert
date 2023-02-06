@@ -2,22 +2,22 @@ export const footerSocials = [
   {
     name: 'Telephone',
     url: 'tel:+79121926760',
-    icon: "mdi:telephone",
+    icon: "mdi-telephone",
   },
   {
     name: 'Email',
     url: 'mailto:etaloneo@ya.ru',
-    icon: "mdi:email",
+    icon: "mdi-email",
   },
   {
     name: 'WatsApp',
     url: 'https://wa.me/79121926760?text=Добрый день!',
-    icon: "mdi:whatsapp",
+    icon: "mdi-whatsapp",
   },
   {
     name: 'Telegram',
     url: 'tg://t.me/+79128633210',
-    icon: "mdi:telegram",
+    icon: "mdi-telegram",
   },
 ]
 
