@@ -83,12 +83,12 @@ import HomeHeroSection from '../components/sections/heros/HomeHeroSection.astro'
 	}
 	.feature-card__grid {
 		display: grid;
-		grid-template-columns: repeat(1, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		gap: var(--theme-grid-gap);
 	}
-	@media (max-width: 768px, max-height: 768px) {
+	@media (max-width: 768px) {
 		.feature-card__grid {
-			grid-template-columns: 3fr;
+			grid-template-columns: 2fr;
 		}
 	}
 </style>
