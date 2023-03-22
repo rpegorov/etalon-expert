@@ -16,7 +16,7 @@ export const footerSocials = [
   },
   {
     name: 'Telegram',
-    url: 'tg://t.me/+79128633210',
+    url: 'tg://t.me/+79121926760',
     icon: "mdi:telegram",
   },
 ]
